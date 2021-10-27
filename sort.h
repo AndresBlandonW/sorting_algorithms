@@ -23,5 +23,7 @@ void insertion_sort_list(listint_t **list);
 void selection_sort(int *array, size_t size);
 void quick_sort(int *array, size_t size);
 void point_list(listint_t *tmp, listint_t *move);
+void quickSort(int *array, size_t size, int low, int high);
+int partition(int *array, size_t size, int low, int high);
 
 #endif
